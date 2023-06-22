@@ -1,13 +1,13 @@
 import React from 'react'
 import skymeet from "../assest/portfolio/skymeet.png"
-// import installNode from "../assest/portfolio/installNode.jpg"
+import todo from "../assest/portfolio/todo.png"
 import IndiaTuch from "../assest/portfolio/IndiaTuch.png"
 import reactParallax from "../assest/portfolio/portfolio.png"
 import MoviesStore from "../assest/portfolio/movies-store.png"
 // import reactWeather from "../assest/portfolio/reactWeather.jpg"
 const Portfolio = () => {
     const portfolios=[
-        {
+      {
             id:1,
             src:skymeet,
             href:"https://sky989723.github.io/SkyMeet/",
@@ -15,39 +15,38 @@ const Portfolio = () => {
         },
         {
             id:2,
+            src:todo,
+            href:"https://to-do-app-xi-eight.vercel.app/",
+            viewlink:"https://github.com/SKY989723/ToDo_app"
+
+        },
+        {
+            id:3,
             src:IndiaTuch,
             href:"https://sky989723.github.io/IndiaTuch/",
             viewlink:"https://github.com/SKY989723/IndiaTuch"
             
         },
         {
-            id:3,
+            id:4,
             src:MoviesStore,
             href:"https://movies-store-g97j.onrender.com/",
             viewlink:"https://github.com/SKY989723/movies-store"
             
         },
         {
-            id:4,
+            id:5,
             src:reactParallax,
             href:"",
             viewlink:""
      
         },
-        // {
-        //     id:5,
-        //     src:installNode
-        // },
-        // {
-        //     id:6,
-        //     src:reactWeather
-        // },
     ]
   return (
     <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 
     w-full text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb- pt-20 md:pt-60'>
+        <div className='pb-4 pt-20 md:pt-0'>
             <p className='text-4xl font-bond inline border-b-4 border-gray-500'>portfolio</p>
             <p className='py-6'>Check out some of my work right here</p>
         </div>
