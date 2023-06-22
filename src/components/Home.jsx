@@ -12,12 +12,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full mt-40'>
             <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi, I am Akash Vaishnav </h2>
             <p className='text-gray-500 py-4 max-w-md'>
-           I am a software engineer and web developer with a passion for crafting efficient and user-friendly applications. Dedicated to continuous learning and delivering high-quality solutions. I love to work on web application using technologies like React, Tailwind, Next JS and CSS.
+           I am a software engineer and web developer with a passion for crafting efficient and user-friendly applications. Dedicated to continuous learning and delivering high-quality solutions. I love to work on web application using technologies like React, MongoDb, Express.js, Tailwind, Node JS, javascript, Html and CSS.
             </p>
             <div>
                 <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3
                 my-2 flex items-center rounded-md bg-gradient-to-r
-                from-green-400 to-red-400 cursor-pointer'>
+               from-yellow-900 to-gray-700 cursor-pointer'>
                     Portfolio  
                     <span className=' group-hover:rotate-90 duration-300'>
                     <MdOutlineKeyboardDoubleArrowRight size={25}
